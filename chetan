@@ -1,0 +1,3 @@
+create database costumer
+show databases
+create table purchase(SrNo int, Items Varchar(20), amount int,discount float)
