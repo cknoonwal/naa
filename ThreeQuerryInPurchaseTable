@@ -1,0 +1,11 @@
+use database costumer;
+create table purchase( SrNo int, Items Varchar,amount int, discount float)
+select* from purchase
+insert into purchase values(1,'Purse',100,'12.33')
+insert into purchase values(2,' Chair',1500,'00')
+insert into purchase values(3,'Laptop',45000,'1000')
+SELECT DISTINCT SrNo from purchase
+SELECT DISTINCT items from purchase
+alter table purchase add Qty int
+describe purchase
+alter table purchase add MobileNo int
