@@ -1,0 +1,6 @@
+CREATE DATABASE INSTAGRAM
+CREATE TABLE Message(Recent varchar(30), Inbox VArchar(30), Sent VArchar(30))
+Create Table Stories( Date Date, Type Varchar(40))
+Create TAble User( AccountType Varchar(40), UserType Char(50))
+Create Table Post( PostType VArchar(30), PostDate Date)
+Select* From User
